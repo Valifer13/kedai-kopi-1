@@ -1,0 +1,231 @@
+{
+  "coffee": [
+    {
+      "name": "Espresso",
+      "description": "Kopi hitam pekat dengan rasa kuat, disajikan dalam cangkir kecil.",
+      "price": "30K",
+      "image": "espresso.webp"
+    },
+    {
+      "name": "Americano",
+      "description": "Espresso yang ditambahkan air panas, menghasilkan kopi hitam dengan rasa lebih ringan.",
+      "price": "35K",
+      "image": "americano.webp"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Espresso dengan campuran susu panas dan busa susu di atasnya, memiliki tekstur lembut.",
+      "price": "45K",
+      "image": "cappuccino.webp"
+    },
+    {
+      "name": "Latte",
+      "description": "Espresso dengan lebih banyak susu, sering dihias dengan latte art.",
+      "price": "50K",
+      "image": "latte.webp"
+    },
+    {
+      "name": "Macchiato",
+      "description": "Espresso dengan sedikit busa susu, kaya rasa.",
+      "price": "45K",
+      "image": "macchiato.webp"
+    },
+    {
+      "name": "Mocha",
+      "description": "Campuran espresso, cokelat, dan susu, dengan rasa manis dan sedikit pahit.",
+      "price": "60K",
+      "image": "mocha.webp"
+    },
+    {
+      "name": "Cold Brew",
+      "description": "Kopi yang diseduh dalam air dingin selama beberapa jam, seringkali disajikan dengan es.",
+      "price": "60K",
+      "image": "cold-brew.webp"
+    },
+    {
+      "name": "Iced Coffee",
+      "description": "Kopi hitam yang disajikan dingin, sering kali dengan tambahan sirup rasa.",
+      "price": "45K",
+      "image": "iced-coffee.webp"
+    }
+  ],
+  "non_coffee": [
+    {
+      "name": "Teh",
+      "description": "Pilihan teh panas atau dingin, bisa berupa teh hitam, hijau, atau herbal.",
+      "price": "30K",
+      "image": "tea.webp"
+    },
+    {
+      "name": "Matcha Latte",
+      "description": "Teh hijau bubuk dicampur dengan susu, kaya akan rasa matcha.",
+      "price": "60K",
+      "image": "matcha-latte.webp"
+    },
+    {
+      "name": "Chai Latte",
+      "description": "Teh berbumbu khas India dicampur susu, dengan aroma dan rasa rempah.",
+      "price": "50K",
+      "image": "chai.webp"
+    },
+    {
+      "name": "Smoothies",
+      "description": "Minuman segar berbahan buah dan yoghurt, kadang ditambah protein atau sayuran.",
+      "price": "75K",
+      "image": "smoothie.webp"
+    },
+    {
+      "name": "Soda",
+      "description": "Minuman soda berperisa untuk pilihan yang segar dan manis.",
+      "price": "60K",
+      "image": "soda.webp"
+    }
+  ],
+  "light_dish": [
+    {
+      "name": "Croissant",
+      "description": "Pastry ringan yang cocok sebagai pendamping kopi.",
+      "price": "30K",
+      "image": "croissant.webp"
+    },
+    {
+      "name": "Scone",
+      "description": "Pastry ringan yang cocok sebagai pendamping kopi.",
+      "price": "30K",
+      "image": "scone.webp"
+    },
+    {
+      "name": "Cheesecake",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": "60K",
+      "image": "cheesecake.webp"
+    },
+    {
+      "name": "Brownies",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": "60K",
+      "image": "brownies.webp"
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": "60K",
+      "image": "tiramisu.webp"
+    },
+    {
+      "name": "Cookies",
+      "description": "Biskuit renyah seperti chocolate chip atau oatmeal.",
+      "price": "20K",
+      "image": "cookies.webp"
+    },
+    {
+      "name": "Donat",
+      "description": "Camilan berbentuk cincin atau bulat, sering diberi topping atau isian.",
+      "price": "30K",
+      "image": "donut.webp"
+    }
+  ],
+  "dessert": [
+    {
+      "name": "Waffle",
+      "description": "Hidangan pencuci mulut dengan topping manis seperti buah, sirup, atau es krim.",
+      "price": "75K",
+      "image": "waffle.webp"
+    },
+    {
+      "name": "Pancake",
+      "description": "Hidangan pencuci mulut dengan topping manis seperti buah, sirup, atau es krim.",
+      "price": "75K",
+      "image": "pancake.webp"
+    },
+    {
+      "name": "Pudding",
+      "description": "Hidangan penutup berlapis seperti puding atau parfait dengan yoghurt atau custard.",
+      "price": "45K",
+      "image": "pudding.webp"
+    },
+    {
+      "name": "Parfait",
+      "description": "Hidangan penutup berlapis seperti puding atau parfait dengan yoghurt atau custard.",
+      "price": "45K",
+      "image": "parfait.webp"
+    },
+    {
+      "name": "Ice Cream",
+      "description": "Es krim yang disajikan dalam cangkir atau cone, dengan berbagai pilihan rasa.",
+      "price": "45K",
+      "image": "ice-cream.webp"
+    }
+  ],
+  "special_menu": [
+    {
+      "name": "Pumpkin Spice Latte",
+      "description": "Perpaduan kopi espresso, susu, sirup labu, dan rempah-rempah seperti kayu manis, pala, cengkeh, dan jahe.",
+      "event": "Musim gugur, Halloween",
+      "price": "50K",
+      "image": "pumpkin-spice-latte.webp"
+    },
+    {
+      "name": "Peppermint Mocha",
+      "description": "Espresso, susu, cokelat, dan sirup peppermint, memberikan nuansa liburan yang menyenangkan.",
+      "event": "Natal, musim dingin",
+      "price": "60K",
+      "image": "peppermint-mocha.webp"
+    },
+    {
+      "name": "Rose Latte",
+      "description": "Latte dengan sirup mawar yang menghasilkan rasa floral lembut dan aroma wangi.",
+      "event": "Hari Valentine, acara romantis",
+      "price": "50K",
+      "image": "rose-latte.webp"
+    },
+    {
+      "name": "Salted Caramel Latte",
+      "description": "Espresso dengan sirup caramel dan sedikit garam laut, memberikan rasa manis dan asin yang khas.",
+      "event": "Musim gugur",
+      "price": "60K",
+      "image": "salted-caramel.webp"
+    },
+    {
+      "name": "Cherry Blossom Latte",
+      "description": "Latte dengan sirup cherry blossom, rasa floral lembut yang identik dengan musim semi.",
+      "event": "Musim semi, cherry blossom",
+      "price": "60K",
+      "image": "sakura-latte.webp"
+    },
+    {
+      "name": "Eggnog Latte",
+      "description": "Perpaduan espresso dengan eggnog, minuman khas Natal dengan rasa creamy dan spicy.",
+      "event": "Natal, musim dingin",
+      "price": "60K",
+      "image": "eggnog.webp"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Maya",
+      "message": "Tempat ini sungguh nyaman untuk menikmati kopi sambil bekerja atau sekadar bersantai. Kopinya enak dan aromanya menggugah selera, benar-benar tempat favorit saya di kota ini!",
+      "image": "04.jpg"
+    },
+    {
+      "name": "Andi",
+      "message": "Barista di sini ramah dan tahu benar cara menyajikan kopi berkualitas. Setiap kunjungan selalu memberikan pengalaman yang berbeda, terutama dengan menu musiman yang kreatif!",
+      "image": "04.jpg"
+    },
+    {
+      "name": "Rika",
+      "message": "Saya bukan hanya datang untuk kopinya, tetapi juga untuk suasana dan pelayanannya. Setiap kunjungan ke Kedai Kopi serasa pulang ke rumah, tempat yang penuh kehangatan dan rasa autentik.",
+      "image": "03.jpg"
+    },
+    {
+      "name": "Budi",
+      "message": "Saya sangat menghargai dedikasi Kedai Kopi dalam menjaga kualitas setiap sajian. Dari espresso yang pekat hingga latte yang lembut, setiap rasa terasa sangat otentik dan memuaskan.",
+      "image": "01.jpg"
+    },
+    {
+      "name": "Sinta",
+      "message": "Kedai Kopi ini selalu jadi pilihan pertama saya untuk berkumpul bersama teman-teman. Dengan pilihan kopu dan camilan yang beragaim, suasananya sungguh menyenangkan dan bikin betah berlama-lama.",
+      "image": "04.jpg"
+    }
+  ]
+}
