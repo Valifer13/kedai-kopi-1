@@ -58,7 +58,7 @@
 							<p>
 								<b>Kedai Kopi:</b> Tempat di mana setiap cangkir kopi membawa kehangatan dan kenangan. Nikmati kopi berkualitas dengan suasana yang nyaman bersama barista berpengalaman kami.
 							</p>
-							<a href="">Baca Lebih</a>
+							<a href="/about">Baca Lebih</a>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">

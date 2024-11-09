@@ -174,7 +174,7 @@
                 @foreach ($menu['coffee'] as $item)
                 <div class="col-sm-6 col-md-4 grid-item" data-filter="coffee">
                     <div>
-                        <a href="menu.php" target="_blank" style="height:250px;"><img
+                        <a href="/menu" target="_blank" style="height:250px;"><img
                                 src="assets/img/demo/menu/coffee/{{ $item['image'] }}" alt="{{ $item['name'] }}"></a>
                         <span>Hanya {{ $item['price'] }}</span>
                         <h3>{{ $item['name'] }}</h3>
@@ -184,7 +184,7 @@
                 @foreach ($menu['non_coffee'] as $item)
                 <div class="col-sm-6 col-md-4 grid-item" data-filter="non-coffee">
                     <div>
-                        <a href="menu.php" target="_blank" style="height:250px;"><img
+                        <a href="/menu" target="_blank" style="height:250px;"><img
                                 src="assets/img/demo/menu/non-coffee/{{ $item['image'] }}"
                                 alt="{{ $item['name'] }}"></a>
                         <span>Hanya {{ $item['price'] }}</span>
@@ -195,7 +195,7 @@
                 @foreach ($menu['light_dish'] as $item)
                 <div class="col-sm-6 col-md-4 grid-item" data-filter="light-dish">
                     <div>
-                        <a href="menu.php" target="_blank" style="height:250px;"><img
+                        <a href="/menu" target="_blank" style="height:250px;"><img
                                 src="assets/img/demo/menu/light-dish/{{ $item['image'] }}"
                                 alt="{{ $item['name'] }}"></a>
                         <span>Hanya {{ $item['price'] }}</span>
@@ -206,7 +206,7 @@
                 @foreach ($menu['dessert'] as $item)
                 <div class="col-sm-6 col-md-4 grid-item" data-filter="dessert">
                     <div>
-                        <a href="menu.php" target="_blank" style="height:250px;"><img
+                        <a href="/menu" target="_blank" style="height:250px;"><img
                                 src="assets/img/demo/menu/dessert/{{ $item['image'] }}" alt="{{ $item['name'] }}"></a>
                         <span>Hanya {{ $item['price'] }}</span>
                         <h3>{{ $item['name'] }}</h3>
