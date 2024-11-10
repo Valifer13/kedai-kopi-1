@@ -33,7 +33,11 @@
 <body>
 	@include('partials.navbar')
 	<!-- Tambahkan komponen navbar -->
-
+	
+	{{-- @if (!Route::is('home'))
+		<x-page-header title="Home" />
+	@endif --}}
+	
 	@yield('content')
 	<!-- Tempat untuk konten halaman -->
 
