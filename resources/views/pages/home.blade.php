@@ -125,8 +125,8 @@
 </section>
 <!-- End Section Reservation -->
 
-<!-- Section Delas -->
-<section id="delas" class="padd-100">
+<!-- Section Offer -->
+<section id="menu-offer" class="padd-100">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -151,7 +151,7 @@
         </div>
     </div>
 </section>
-<!-- End Section Delas -->
+<!-- End Section Offer -->
 
 <!-- Section Restaurant Menu -->
 <section id="restaurant-menu" class="padd-100">

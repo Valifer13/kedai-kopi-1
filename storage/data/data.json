@@ -79,6 +79,12 @@
       "description": "Minuman soda berperisa untuk pilihan yang segar dan manis.",
       "price": "60K",
       "image": "soda.webp"
+    },
+    {
+      "name": "Mocktail",
+      "description": "Minuman soda berperisa untuk pilihan yang segar dan manis.",
+      "price": "60K",
+      "image": "mocktail.webp"
     }
   ],
   "light_dish": [
@@ -123,7 +129,14 @@
       "description": "Camilan berbentuk cincin atau bulat, sering diberi topping atau isian.",
       "price": "30K",
       "image": "donut.webp"
+    },
+    {
+      "name": "Sandwich",
+      "description": "Roti isi dengan berbagai macam isian seperti daging, sayuran, dan keju.",
+      "price": "75K",
+      "image": "sandwich.webp"
     }
+
   ],
   "dessert": [
     {
@@ -155,6 +168,12 @@
       "description": "Es krim yang disajikan dalam cangkir atau cone, dengan berbagai pilihan rasa.",
       "price": "45K",
       "image": "ice-cream.webp"
+    },
+    {
+      "name": "Gelato",
+      "description": "Es krim yang disajikan dalam cangkir atau cone, dengan berbagai pilihan rasa.",
+      "price": "45K",
+      "image": "gelato.webp"
     }
   ],
   "special_menu": [

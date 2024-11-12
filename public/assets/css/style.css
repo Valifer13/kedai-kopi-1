@@ -1968,7 +1968,8 @@ a:hover {
 #breadcrumb {
   min-height: 428px;
   position: relative;
-  background: url(../img/demo/slides/02.jpg) no-repeat;
+  background-position: left;
+  background-image: url("assets/img/demo/slides/02.webp");
 }
 #breadcrumb .section-title {
   margin: 12px 0 15px;
