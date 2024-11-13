@@ -18,235 +18,64 @@
             <div class="col-sm-12">
                 <div class="carousel-table">
                     <div class="table-page">
-                        <div class="item">
-                            <span>1</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>2</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>3</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>4</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>5</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>6</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>7</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>8</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>9</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>10</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>11</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>12</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>13</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>14</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>15</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
+                        @php
+                        $pola_meja = [1, 2, 3, 2, 1];
+
+                        function jenis_meja($nomor_meja, $pola_meja) {
+                            $index = ($nomor_meja - 1) % count($pola_meja);
+                            return $pola_meja[$index];
+                        }
+                        @endphp
+                        
+                        @for ($i = 1; $i < 16; $i++)
+                            @php
+                                $jenis = jenis_meja($i, $pola_meja);
+                                $imgpath = $jenis == 1
+                                            ? "assets/img/demo/reservation/table_8.png"
+                                            : ($jenis == 2 ? "assets/img/demo/reservation/table_1.png" : "assets/img/demo/reservation/table_6.png");
+                                $table_state = rand(0, 1);
+                            @endphp
+                        
+                            <div class="item {{ $table_state == 0 ? '' : 'reserved' }}">
+                                <span>{{ $i }}</span>
+                                <p>Dipesan</p>
+                                <img src="{{ $imgpath }}" alt="">
+                            </div>
+                        @endfor
                     </div>
                     <div class="table-page">
-                        <div class="item">
-                            <span>16</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>17</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>18</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>19</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>20</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>21</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>22</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>23</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>24</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>25</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>26</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>27</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>28</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>29</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>30</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
+                        @for ($i = 16; $i < 31; $i++)
+                            @php
+                                $jenis = jenis_meja($i, $pola_meja);
+                                $imgpath = $jenis == 1
+                                            ? "assets/img/demo/reservation/table_8.png"
+                                            : ($jenis == 2 ? "assets/img/demo/reservation/table_1.png" : "assets/img/demo/reservation/table_6.png");
+                                $table_state = rand(0, 1);
+                            @endphp
+                        
+                            <div class="item {{ $table_state == 0 ? '' : 'reserved' }}">
+                                <span>{{ $i }}</span>
+                                <p>Dipesan</p>
+                                <img src="{{ $imgpath }}" alt="">
+                            </div>
+                        @endfor
                     </div>
                     <div class="table-page">
-                        <div class="item">
-                            <span>31</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>32</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>33</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>34</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>35</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>36</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>37</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>38</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>39</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>40</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item reserved">
-                            <span>41</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>42</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>43</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>44</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <span>45</span>
-                            <p>reserved</p>
-                            <img src="assets/img/demo/reservation/table_8.png" alt="">
-                        </div>
+                        @for ($i = 31; $i < 46; $i++)
+                            @php
+                                $jenis = jenis_meja($i, $pola_meja);
+                                $imgpath = $jenis == 1
+                                            ? "assets/img/demo/reservation/table_8.png"
+                                            : ($jenis == 2 ? "assets/img/demo/reservation/table_1.png" : "assets/img/demo/reservation/table_6.png");
+                                $table_state = rand(0, 1);
+                            @endphp
+                        
+                            <div class="item {{ $table_state == 0 ? '' : 'reserved' }}">
+                                <span>{{ $i }}</span>
+                                <p>Dipesan</p>
+                                <img src="{{ $imgpath }}" alt="">
+                            </div>
+                        @endfor
                     </div>
                 </div>
             </div>
@@ -262,43 +91,43 @@
             <div class="col-md-7">
                 <div class="form-reservation padd-100">
                     <span class="section-suptitle">
-                        Your Table
+                        Meja Anda
                     </span>
                     <h2 class="section-title white-font">
-                        Reservation Now!
+                        Reservasi Sekarang!
                     </h2>
                     <form action="#" method="post">
                         <div class="column">
                             <span>
-                                <input type="text" name="name" placeholder="Name">
+                                <input type="text" name="name" placeholder="Nama">
                             </span>
                             <span>
-                                <input type="text" name="contact_number" placeholder="Contact Number">
-                            </span>
-                        </div>
-                        <div class="column">
-                            <span>
-                                <input type="text" name="email" placeholder="Email Adress">
-                            </span>
-                            <span>
-                                <input type="text" name="num_person" placeholder="Number of Person">
+                                <input type="text" name="contact_number" placeholder="Nomor Kontak">
                             </span>
                         </div>
                         <div class="column">
                             <span>
-                                <input type="text" name="book_date" placeholder="Booke Date">
+                                <input type="text" name="email" placeholder="Alamat Email">
+                            </span>
+                            <span>
+                                <input type="text" name="num_person" placeholder="Jumlah Orang">
+                            </span>
+                        </div>
+                        <div class="column">
+                            <span>
+                                <input type="text" name="book_date" placeholder="Tanggal Pemesanan">
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
                             </span>
                             <span>
-                                <input type="text" name="your_time" placeholder="Your Time ">
+                                <input type="text" name="your_time" placeholder="Waktu Anda">
                                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                             </span>
                         </div>
                         <div class="column">
-                            <textarea name="message" placeholder="Message of Request"></textarea>
+                            <textarea name="message" placeholder="Pesan Permintaan"></textarea>
                         </div>
                         <div class="submit-btn">
-                            <button type="submit">Book Now</button>
+                            <button type="submit">Pesan Sekarang</button>
                             <input type="hidden" class="num_table" value="">
                         </div>
                     </form>
