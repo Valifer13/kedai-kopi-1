@@ -141,88 +141,29 @@
 <!-- Section Event -->
 <section id="events" class="padd-100">
     <span class="section-suptitle text-center">
-        Month of March
+        Special Menu
     </span>
     <h2 class="section-title sep-type-2 text-center">
-        upcoming event
+        Event Mendatang
     </h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-12  no-padd">
-
                 <ul class="event-carousel">
+                    @foreach ($menu['special_menu'] as $item)
                     <li class="event-item">
-                        <img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
+                        <img src="assets/img/demo/menu/event/{{ $item['image'] }}" alt="{{ $item['name'] }}" class=""
+                            width="100%" height="250">
                         <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
+                            <h3>{{ $item['name'] }}</h3>
+                            <span>{{ $item['event'] }}</span>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
+                                {{ $item['description'] }}
                             </p>
-                            <a href="">Read More</a>
+                            <a href="#">Baca lebih</a>
                         </div>
                     </li>
-                    <li class="event-item">
-                        <img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-                        <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </li>
-                    <li class="event-item">
-                        <img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-                        <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </li>
-                    <li class="event-item">
-                        <img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
-                        <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </li>
-                    <li class="event-item">
-                        <img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-                        <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </li>
-                    <li class="event-item">
-                        <img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-                        <div>
-                            <h3>Chicken and Cashews</h3>
-                            <span>18 Mar 2016</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum.
-                                estibulum a felis ac sem hendrerit mattis...
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
@@ -233,70 +174,27 @@
 <!-- Section Testimonials -->
 <section id="testimonials" class="padd-100 parallax-window" data-background="assets/img/demo/bg/03.jpg">
     <span class="section-suptitle text-center">
-        Food Lover
+        Coffee Lover
     </span>
     <h2 class="section-title white-font sep-type-2 text-center">
-        customer feedback
+        Ulasan Balik Kustomer
     </h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 no-padd">
                 <ul class="testimonial-list">
+                    @foreach ($menu['testimonials'] as $item)
                     <li>
                         <div>
                             <p>
-                                Nunc ullamcorper augue nec accumsan
-                                porta. Ut lacinia fgiat viverra. Ut dictum
-                                turpis in ipsum sagittis finibus.
+                                {{ $item['message'] }}
                             </p>
-                            <span>Anna Van</span>
+                            <span>{{ $item['name'] }}</span>
                         </div>
-                        <img src="assets/img/demo/testimonials/01.jpg" alt="" class="img-responsive">
+                        <img src="assets/img/demo/testimonials/{{ $item['image'] }}" alt="{{ $item['name'] }}"
+                            class="img-responsive">
                     </li>
-                    <li>
-                        <div>
-                            <p>
-                                Nunc ullamcorper augue nec accumsan
-                                porta. Ut lacinia fgiat viverra. Ut dictum
-                                turpis in ipsum sagittis finibus.
-                            </p>
-                            <span>Frinton Van</span>
-                        </div>
-                        <img src="assets/img/demo/testimonials/02.jpg" alt="" class="img-responsive">
-                    </li>
-                    <li>
-                        <div>
-                            <p>
-                                Nunc ullamcorper augue nec accumsan
-                                porta. Ut lacinia fgiat viverra. Ut dictum
-                                turpis in ipsum sagittis finibus.
-                            </p>
-                            <span>Filipe Van</span>
-                        </div>
-                        <img src="assets/img/demo/testimonials/03.jpg" alt="" class="img-responsive">
-                    </li>
-                    <li>
-                        <div>
-                            <p>
-                                Nunc ullamcorper augue nec accumsan
-                                porta. Ut lacinia fgiat viverra. Ut dictum
-                                turpis in ipsum sagittis finibus.
-                            </p>
-                            <span>Frinton Van</span>
-                        </div>
-                        <img src="assets/img/demo/testimonials/01.jpg" alt="" class="img-responsive">
-                    </li>
-                    <li>
-                        <div>
-                            <p>
-                                Nunc ullamcorper augue nec accumsan
-                                porta. Ut lacinia fgiat viverra. Ut dictum
-                                turpis in ipsum sagittis finibus.
-                            </p>
-                            <span>Frinton Van</span>
-                        </div>
-                        <img src="assets/img/demo/testimonials/02.jpg" alt="" class="img-responsive">
-                    </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
@@ -306,90 +204,33 @@
 
 <!-- Section From The Menu -->
 <section id="from-menu" class="padd-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="f-menu-list">
-                    <div class="f-menu-item">
-                        <div class="item-left">
-                            <img src="assets/img/demo/dishes/01.jpg" alt="">
-                        </div>
-                        <div class="item-right">
-                            <span class="section-suptitle">Food Lover</span>
-                            <h3 class="section-title">
-                                Offer Dishes
-                            </h3>
-                            <span class="price">Only $25 <samp>$45</samp></span>
-                            <h4>Chicken and Cashews</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper,
-                                suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt
-                                lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
-                            </p>
-                            <a href="">About More</a>
-                        </div>
-                    </div>
-                    <div class="f-menu-item">
-                        <div class="item-left">
-                            <img src="assets/img/demo/dishes/02.jpg" alt="">
-                        </div>
-                        <div class="item-right">
-                            <span class="section-suptitle">Food Lover</span>
-                            <h3 class="section-title">
-                                Offer Dishes
-                            </h3>
-                            <span class="price">Only $30 <samp>$60</samp></span>
-                            <h4>Dishes and Wings</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper,
-                                suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt
-                                lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
-                            </p>
-                            <a href="">About More</a>
-                        </div>
-                    </div>
-                    <div class="f-menu-item">
-                        <div class="item-left">
-                            <img src="assets/img/demo/dishes/03.jpg" alt="">
-                        </div>
-                        <div class="item-right">
-                            <span class="section-suptitle">Food Lover</span>
-                            <h3 class="section-title">
-                                Offer Crepes
-                            </h3>
-                            <span class="price">Only $10 <samp>$20</samp></span>
-                            <h4>Crepes and Crape</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper,
-                                suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt
-                                lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
-                            </p>
-                            <a href="">About More</a>
-                        </div>
-                    </div>
-                    <div class="f-menu-item">
-                        <div class="item-left">
-                            <img src="assets/img/demo/dishes/04.jpg" alt="">
-                        </div>
-                        <div class="item-right">
-                            <span class="section-suptitle">Food Lover</span>
-                            <h3 class="section-title">
-                                Offer Dishes
-                            </h3>
-                            <span class="price">Only $25 <samp>$50</samp></span>
-                            <h4>Chicken and Dishes</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper,
-                                suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt
-                                lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
-                            </p>
-                            <a href="">About More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="f-menu-list">
+					@foreach ($menu['dessert'] as $item)
+					<div class="f-menu-item">
+						<div class="item-left">
+							<img src="assets/img/demo/offers/dessert/{{ $item['image'] }}" alt="{{ $item['name'] }}">
+						</div>
+						<div class="item-right">
+							<span class="section-suptitle">Coffee Lover</span>
+							<h3 class="section-title">
+								Special Menu Event
+							</h3>
+							<span class="price">Hanya {{ $item['price'] }}</span>
+							<h4>{{ $item['name'] }}</h4>
+							<p>
+								{{ $item['description'] }}
+							</p>
+							<a href="">Lihat Lebih</a>
+						</div>
+					</div>
+					@endforeach
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- Section End From The Menu -->
 @endsection
