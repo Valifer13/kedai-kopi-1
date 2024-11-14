@@ -246,5 +246,43 @@
       "message": "Kedai Kopi ini selalu jadi pilihan pertama saya untuk berkumpul bersama teman-teman. Dengan pilihan kopu dan camilan yang beragaim, suasananya sungguh menyenangkan dan bikin betah berlama-lama.",
       "image": "04.jpg"
     }
+  ],
+  "articles": [
+    {
+      "title": "Peluncuran Menu Musim Gugur: Pumpkin Spice Latte Kembali Hadir!",
+      "description": "Menyambut musim gugur, kafe kami kembali menghadirkan Pumpkin Spice Latte, minuman favorit yang hanya tersedia saat musim gugur. Dengan perpaduan unik antara espresso, susu, dan bumbu khas labu, minuman ini akan membawa kehangatan dan suasana cozy di setiap tegukannya. Jangan lewatkan, karena menu spesial ini hanya tersedia dalam waktu terbatas!",
+      "image": "pumpkin-spice-latte.webp",
+      "date": "1 Oktober 2024"
+    },
+    {
+      "title": "Acara Live Music Setiap Sabtu Malam!",
+      "description": "Bagi pecinta musik, kafe kami kini menghadirkan live music setiap Sabtu malam mulai pukul 19.00! Nikmati suasana santai dan hidangan favorit Anda dengan iringan musik akustik dari musisi lokal. Datang bersama teman atau pasangan untuk malam yang penuh kehangatan dan hiburan.",
+      "image": "live-music.webp",
+      "date": "15 November 2024"
+    },
+    {
+      "title": "Promo Spesial Hari Kopi Internasional: Diskon 20% untuk Semua Menu Kopi!",
+      "description": "Dalam rangka Hari Kopi Internasional, kafe kami memberikan diskon 20% untuk semua menu kopi selama satu hari penuh! Kunjungi kafe kami pada tanggal 1 Oktober 2024 dan rayakan Hari Kopi Internasional dengan secangkir kopi favorit Anda. Promo berlaku untuk dine-in maupun take-away.",
+      "image": "discount-coffee.webp",
+      "date": "1 Oktober 2024"
+    },
+    {
+      "title": "Tren Kopi Dingin: Apa Bedanya Cold Brew, Iced Coffee, dan Nitro Coffee?",
+      "description": "Kopi dingin semakin populer, tetapi tahukah Anda perbedaan antara cold brew, iced coffee, dan nitro coffee? Artikel ini akan menjelaskan cara pembuatan, cita rasa, dan keunikan dari setiap jenis kopi dingin, serta memberi rekomendasi kapan waktu terbaik untuk menikmatinya. Cocok bagi pecinta kopi yang ingin tahu lebih banyak tentang minuman dingin ini!",
+      "image": "cold-coffee.webp",
+      "date": "20 Oktober 2024"
+    },
+    {
+      "title": "Tips Mengurangi Limbah: Cara Menikmati Kopi dengan Lebih Ramah Lingkungan",
+      "description": "Industri kopi semakin berfokus pada keberlanjutan. Temukan langkah-langkah sederhana untuk mengurangi limbah saat menikmati kopi, baik di kafe maupun di rumah. Dari memilih tumbler yang bisa dipakai ulang hingga menggunakan ampas kopi untuk pupuk tanaman, artikel ini membahas cara menjadi pencinta kopi yang lebih peduli lingkungan.",
+      "image": "reduce-waste.webp",
+      "date": "5 November 2024"
+    },
+    {
+      "title": "Mengenal Kopi dari Seluruh Dunia: Apa Saja Karakteristik Unik Kopi dari Berbagai Negara?",
+      "description": "Dari kopi Sumatera yang kaya akan rasa earthy hingga kopi Ethiopia yang fruity, setiap daerah penghasil kopi menawarkan cita rasa khas. Artikel ini mengajak pembaca berkeliling dunia melalui cangkir kopi, membahas karakteristik rasa kopi dari berbagai negara, dan memberikan insight tentang profil rasa yang mungkin sesuai dengan selera pembaca.",
+      "image": "world-coffee.webp",
+      "date": "28 November 2024"
+    }
   ]
 }
