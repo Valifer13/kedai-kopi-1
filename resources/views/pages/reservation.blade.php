@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Reservation Page')
+@section('title', 'Reservasi')
 
 @section('content')
 <x-page-header title="Reservasi" />
