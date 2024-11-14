@@ -1,6 +1,6 @@
 	<!-- Footer -->
 	<!-- Section Contact -->
-	<section id="contact">
+	<section id="contact" style="{{ Route::is('contact') ? 'display:none;' : '' }}">
 		<div id="maps"></div>
 		<div class="container">
 			<div class="row">
